@@ -1,5 +1,5 @@
 <?php
-namespace Vanqard\Locksmith\Exceptions;
+namespace Vanqard\Common\Locksmith\Exceptions;
 
 use Exception;
 

@@ -1,5 +1,4 @@
 <?php
-
 namespace Vanqard\Common\Locksmith\Exceptions;
 
 use InvalidArgumentException;
