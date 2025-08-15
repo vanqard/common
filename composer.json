@@ -1,8 +1,7 @@
 {
-  "name": "vanqard/storm",
-  "description": "Small, highly performant db package for PHP 8+",
-  "keywords": ["ORM", "datamapper"],
-  "homepage": "https://github.com/vanqard/storm",
+  "name": "vanqard/common",
+  "description": "Common classes for PHP 8+",
+  "homepage": "https://github.com/vanqard/common",
   "license": "MIT",
   "authors": [
     {
@@ -12,7 +11,7 @@
     }
   ],
   "require": {
-    "php": ">=8"
+    "php": ">=8.0"
   },
   "autoload": {
     "psr-4": {
