@@ -1,0 +1,26 @@
+{
+  "name": "vanqard/storm",
+  "description": "Small, highly performant db package for PHP 8+",
+  "keywords": ["ORM", "datamapper"],
+  "homepage": "https://github.com/vanqard/storm",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thunder Raven-Stoker",
+      "email": "thunder@vanqard.com",
+      "homepage": "http://phpbrilliance.com/book#author"
+    }
+  ],
+  "require": {
+    "php": ">=8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vanqard\\Common\\": "Common"
+    }
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^10.0"
+  }
+}
