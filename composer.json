@@ -7,7 +7,7 @@
     {
       "name": "Thunder Raven-Stoker",
       "email": "thunder@vanqard.com",
-      "homepage": "http://phpbrilliance.com/book#author"
+      "homepage": "https://phpbrilliance.com"
     }
   ],
   "require": {
@@ -18,8 +18,19 @@
       "Vanqard\\Common\\": "Common"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Vanqard\\Common\\Tests\\": "tests"
+    }
+  },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
-    "phpunit/phpunit": "^10.0"
+    "phpunit/phpunit": "^10.0",
+    "bugsnag/bugsnag": "^3.0",
+    "sentry/sentry": "^4.0"
+  },
+  "suggest": {
+    "bugsnag/bugsnag": "Required to use Vanqard\\Common\\Trackers\\Adapters\\BugsnagAdapter",
+    "sentry/sentry": "Required to use Vanqard\\Common\\Trackers\\Adapters\\SentryAdapter"
   }
 }
